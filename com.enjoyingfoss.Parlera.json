@@ -26,7 +26,7 @@
         "install -Dm644 parlera/icons/symbolic/com.enjoyingfoss.Parlera-symbolic.svg /app/share/icons/hicolor/symbolic/apps/com.enjoyingfoss.Parlera-symbolic.svg",
         "install -Dm644 parlera/icons/scalable/com.enjoyingfoss.Parlera.svg /app/share/icons/hicolor/scalable/apps/com.enjoyingfoss.Parlera.svg",
         "install -Dm644 parlera/com.enjoyingfoss.Parlera.desktop /app/share/applications/com.enjoyingfoss.Parlera.desktop",
-        "install -Dm644 parlera/com.enjoyingfoss.Parlera.appdata.xml /app/share/applications/com.enjoyingfoss.Parlera.appdata.xml"
+        "install -Dm644 parlera/com.enjoyingfoss.Parlera.metainfo.xml /app/share/metainfo/com.enjoyingfoss.Parlera.metainfo.xml"
       ],
       "sources": [
         {
@@ -34,8 +34,8 @@
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://github.com/EnjoyingFOSS/parlera/releases/download/3.0.1/parlera-linux-x86_64.tar.gz",
-          "sha256": "ec58c8d8bb43599e7f5cbbd1dafd7680ab9f00a5c52b382d253d0aca574ee8b6",
+          "url": "https://github.com/EnjoyingFOSS/parlera/releases/download/v3.0.3/parlera-linux-x86_64.tar.gz",
+          "sha256": "4c76cd34f1e1784699083f8cdf36595172145843040d8ce0d3cef6b30e77f97d",
           "dest": "parlera"
         },
         {
@@ -43,8 +43,8 @@
           "only-arches": [
             "aarch64"
           ],
-          "url": "https://github.com/EnjoyingFOSS/parlera/releases/download/3.0.1/parlera-linux-aarch64.tar.gz",
-          "sha256": "0b5183bd1512fdbb296a32974370b35805fa4b0ddd00e9aeda496d902aa24376",
+          "url": "https://github.com/EnjoyingFOSS/parlera/releases/download/v3.0.3/parlera-linux-aarch64.tar.gz",
+          "sha256": "bb2c3cd82de72057b42d3aea98be9dfc3fba8b64520f11038a4be92567273629",
           "dest": "parlera"
         }
       ]
