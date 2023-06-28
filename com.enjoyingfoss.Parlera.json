@@ -34,8 +34,8 @@
           "only-arches": [
             "x86_64"
           ],
-          "url": "https://github.com/EnjoyingFOSS/parlera/releases/download/v3.0.3/parlera-linux-x86_64.tar.gz",
-          "sha256": "4c76cd34f1e1784699083f8cdf36595172145843040d8ce0d3cef6b30e77f97d",
+          "url": "https://github.com/EnjoyingFOSS/parlera/releases/download/v3.0.5/parlera-linux-x86_64.tar.gz",
+          "sha256": "ac428e25de60cbf6c38b684b8669dd0b75f1290628e3322d463b63906bdeef9d",
           "dest": "parlera"
         },
         {
@@ -43,8 +43,8 @@
           "only-arches": [
             "aarch64"
           ],
-          "url": "https://github.com/EnjoyingFOSS/parlera/releases/download/v3.0.3/parlera-linux-aarch64.tar.gz",
-          "sha256": "bb2c3cd82de72057b42d3aea98be9dfc3fba8b64520f11038a4be92567273629",
+          "url": "https://github.com/EnjoyingFOSS/parlera/releases/download/v3.0.5/parlera-linux-aarch64.tar.gz",
+          "sha256": "3f4578e002103ee875b6e1c524985474fdfcc0775b1cde23836fcd3eb868d32d",
           "dest": "parlera"
         }
       ]
