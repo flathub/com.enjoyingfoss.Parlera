@@ -46,6 +46,10 @@
           "url": "https://github.com/EnjoyingFOSS/parlera/releases/download/v3.0.5/parlera-linux-aarch64.tar.gz",
           "sha256": "3f4578e002103ee875b6e1c524985474fdfcc0775b1cde23836fcd3eb868d32d",
           "dest": "parlera"
+        },
+        {
+          "type": "patch",
+          "path": "fix-appdata.patch"
         }
       ]
     }
