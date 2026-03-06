@@ -1,0 +1,73 @@
+From eaacdc584a903a51647057e34a08ba1b18a7f429 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Sabri=20=C3=9Cnal?= <yakushabb@gmail.com>
+Date: Tue, 24 Feb 2026 01:24:56 +0300
+Subject: [PATCH] Fix appdata paper cuts
+
+---
+ parlera/com.enjoyingfoss.Parlera.metainfo.xml | 19 +++++--------------
+ 1 file changed, 5 insertions(+), 14 deletions(-)
+
+diff --git a/parlera/com.enjoyingfoss.Parlera.metainfo.xml b/parlera/com.enjoyingfoss.Parlera.metainfo.xml
+index 274839a..e4cd513 100644
+--- a/parlera/com.enjoyingfoss.Parlera.metainfo.xml
++++ b/parlera/com.enjoyingfoss.Parlera.metainfo.xml
+@@ -3,7 +3,6 @@
+ 	<id>com.enjoyingfoss.Parlera</id>
+ 	<name>Parlera</name>
+ 	<summary>A party game where your friends describe and you guess; or vice versa</summary>
+-
+ 	<metadata_license>CC0-1.0</metadata_license>
+ 	<project_license>AGPL-3.0-or-later</project_license>
+ 	<recommends>
+@@ -11,20 +10,18 @@
+ 		<control>pointing</control>
+ 		<control>keyboard</control>
+ 	</recommends>
+-	<developer_name>Enjoying FOSS</developer_name>
+-
++  <developer id="com.enjoyingfoss"><name>Enjoying FOSS</name></developer>
+ 	<url type="homepage">https://gitlab.com/enjoyingfoss/parlera</url>
+ 	<url type="bugtracker">https://gitlab.com/enjoyingfoss/parlera/-/issues</url>
++  <url type="vcs-browser">https://gitlab.com/enjoyingfoss/parlera</url>
+ 	<url type="donation">https://liberapay.com/Parlera/donate</url>
+ 	<url type="translate">https://hosted.weblate.org/projects/parlera/</url>
+-
++	<content_rating type="oars-1.1" />
++	<launchable type="desktop-id">com.enjoyingfoss.Parlera.desktop</launchable>
+ 	<update_contact>contact.mirek+parlera_AT_protonmail.com</update_contact>
+-
+ 	<custom>
+-		<value key="Purism::form_factor">workstation</value>
+ 		<value key="Purism::form_factor">mobile</value>
+ 	</custom>
+-
+ 	<description>
+ 		<p>A party game where your friends describe and you guess. Or vice versa.</p>
+ 		<p>Features:</p>
+@@ -35,7 +32,6 @@
+ 			<li>Free and open-source. Contribute at https://gitlab.com/enjoyingfoss/parlera/.</li>
+ 		</ul>
+ 	</description>
+-
+ 	<screenshots>
+ 		<screenshot type="default">
+ 			<caption>Home screen listing the different word categories</caption>
+@@ -62,13 +58,8 @@
+ 			<image type="source">https://gitlab.com/enjoyingfoss/parlera/-/raw/master/flatpak/screenshots/settings.png</image>
+ 		</screenshot>
+ 	</screenshots>
+-
+ 	<releases>
+ 		<release version="v3.0.5" date="2023-06-28" />
+ 		<release version="v2.1.1" date="2023-06-28" />
+ 	</releases>
+-
+-	<content_rating type="oars-1.1" />
+-
+-	<launchable type="desktop-id">com.enjoyingfoss.Parlera.desktop</launchable>
+-</component>
+\ No newline at end of file
++</component>
+-- 
+2.53.0
+
